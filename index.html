@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Picture Perfect Photography | Events &amp; Portraits, North Dallas</title>
+<meta name="description" content="Picture Perfect Photography. Event, portrait and family photography serving Celina, Prosper, Frisco, McKinney and the wider DFW metroplex.">
+<link rel="canonical" href="https://pictureperfects.com/">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://pictureperfects.com/">
+<meta property="og:title" content="Picture Perfect Photography">
+<meta property="og:description" content="Event, portrait and family photography serving North Dallas and the DFW metroplex.">
+<meta property="og:image" content="https://pictureperfects.com/assets/apple-touch-icon.png">
+<meta name="twitter:card" content="summary">
+<link rel="icon" href="assets/favicon.png" type="image/png">
+<link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;1,400&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"ProfessionalService","name":"Picture Perfect Photography",
+"image":"https://pictureperfects.com/assets/apple-touch-icon.png","url":"https://pictureperfects.com/",
+"telephone":"+1-484-246-6661","email":"hi@pictureperfects.com",
+"address":{"@type":"PostalAddress","addressRegion":"TX","addressCountry":"US"},
+"areaServed":"Dallas Fort Worth Metroplex","priceRange":"$$"}
+</script>
+<style>
+:root{
+  --ink:#141414; --ink-soft:#5A5A5A; --muted:#8A8A8A;
+  --rose:#C88B7C; --rose-deep:#B56C58; --rose-wash:#FBF6F4;
+  --line:#E9E3E0; --bg:#FFFFFF; --bg-alt:#FAF7F5;
+  --max:1180px;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:'Poppins',system-ui,sans-serif;color:var(--ink);background:var(--bg);
+  font-size:16px;line-height:1.65;-webkit-font-smoothing:antialiased}
+img{max-width:100%;display:block}
+a{color:inherit}
+.wrap{max-width:var(--max);margin:0 auto;padding:0 28px}
+
+/* ---------- nav ---------- */
+header{position:sticky;top:0;z-index:50;background:rgba(255,255,255,.94);
+  backdrop-filter:saturate(180%) blur(12px);border-bottom:1px solid var(--line)}
+nav{display:flex;align-items:center;justify-content:space-between;height:76px}
+nav .logo img{height:38px;width:auto}
+nav ul{display:flex;gap:32px;list-style:none;align-items:center}
+nav a{text-decoration:none;font-size:12px;letter-spacing:1.6px;text-transform:uppercase;
+  font-weight:500;color:var(--ink-soft);transition:color .18s}
+nav a:hover{color:var(--rose-deep)}
+nav .cta{border:1.5px solid var(--ink);padding:10px 20px;color:var(--ink);border-radius:2px;
+  transition:background .18s,color .18s}
+nav .cta:hover{background:var(--ink);color:#fff}
+.burger{display:none;background:none;border:0;cursor:pointer;padding:8px}
+.burger span{display:block;width:24px;height:2px;background:var(--ink);margin:5px 0;transition:.25s}
+
+/* ---------- hero ---------- */
+.hero{padding:110px 0 96px;text-align:center;background:
+  radial-gradient(1100px 460px at 50% -12%, var(--rose-wash) 0%, rgba(255,255,255,0) 72%)}
+.hero .mark{height:112px;width:auto;margin:0 auto 34px}
+.hero h1{font-size:clamp(32px,5.4vw,58px);font-weight:700;letter-spacing:-.5px;line-height:1.08}
+.hero .script{font-family:'Lora',serif;font-style:italic;color:var(--rose);
+  font-size:clamp(19px,2.7vw,27px);margin-top:10px}
+.hero p.lede{max-width:600px;margin:26px auto 0;color:var(--ink-soft);font-size:17px;font-weight:300}
+.hero .actions{display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin-top:38px}
+.btn{display:inline-block;text-decoration:none;font-size:12.5px;letter-spacing:1.6px;
+  text-transform:uppercase;font-weight:600;padding:15px 30px;border-radius:2px;transition:.18s}
+.btn-primary{background:var(--ink);color:#fff;border:1.5px solid var(--ink)}
+.btn-primary:hover{background:var(--rose-deep);border-color:var(--rose-deep)}
+.btn-ghost{background:transparent;color:var(--ink);border:1.5px solid var(--line)}
+.btn-ghost:hover{border-color:var(--ink)}
+
+/* ---------- sections ---------- */
+section{padding:88px 0}
+section.alt{background:var(--bg-alt)}
+.eyebrow{font-size:11px;letter-spacing:3px;text-transform:uppercase;color:var(--rose-deep);
+  font-weight:600;margin-bottom:12px}
+h2{font-size:clamp(26px,3.6vw,38px);font-weight:700;letter-spacing:-.3px;line-height:1.2}
+.section-head{max-width:660px;margin-bottom:48px}
+.section-head p{color:var(--ink-soft);margin-top:14px;font-weight:300}
+.center{text-align:center;margin-left:auto;margin-right:auto}
+
+/* ---------- services ---------- */
+.grid{display:grid;gap:26px;grid-template-columns:repeat(auto-fit,minmax(258px,1fr))}
+.card{border:1px solid var(--line);padding:32px 28px;background:#fff;
+  transition:border-color .2s,transform .2s}
+.card:hover{border-color:var(--rose);transform:translateY(-3px)}
+.card .num{font-family:'Lora',serif;font-style:italic;color:var(--rose);font-size:22px;margin-bottom:10px}
+.card h3{font-size:18px;font-weight:600;margin-bottom:10px;letter-spacing:-.2px}
+.card p{font-size:14.5px;color:var(--ink-soft);font-weight:300;line-height:1.6}
+
+/* ---------- gallery ---------- */
+#gallery-grid{columns:3;column-gap:16px}
+#gallery-grid figure{break-inside:avoid;margin:0 0 16px;position:relative;cursor:zoom-in;overflow:hidden;background:#EEE}
+#gallery-grid img{width:100%;height:auto;transition:transform .5s ease}
+#gallery-grid figure:hover img{transform:scale(1.04)}
+#gallery-grid figure::after{content:'';position:absolute;inset:0;background:rgba(20,20,20,0);transition:background .3s}
+#gallery-grid figure:hover::after{background:rgba(20,20,20,.12)}
+
+/* ---------- lightbox ---------- */
+.lb{position:fixed;inset:0;background:rgba(12,12,12,.96);z-index:100;display:none;
+  align-items:center;justify-content:center;padding:24px}
+.lb.open{display:flex}
+.lb img{max-width:92vw;max-height:86vh;object-fit:contain}
+.lb button{position:absolute;background:none;border:0;color:#fff;cursor:pointer;
+  font-size:34px;line-height:1;opacity:.75;transition:opacity .2s;padding:14px}
+.lb button:hover{opacity:1}
+.lb .close{top:14px;right:18px;font-size:38px}
+.lb .prev{left:8px;top:50%;transform:translateY(-50%)}
+.lb .next{right:8px;top:50%;transform:translateY(-50%)}
+.lb .count{position:absolute;bottom:20px;left:50%;transform:translateX(-50%);color:#fff;
+  font-size:12px;letter-spacing:2px;opacity:.65}
+
+/* ---------- about ---------- */
+.about{display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:center}
+.about .txt p{color:var(--ink-soft);font-weight:300;margin-top:16px}
+.about .panel{background:#fff;border:1px solid var(--line);padding:34px}
+.about .panel dl{display:grid;grid-template-columns:auto 1fr;gap:12px 22px;font-size:14.5px}
+.about .panel dt{color:var(--muted);font-size:11px;letter-spacing:2px;text-transform:uppercase;
+  font-weight:600;padding-top:3px}
+.about .panel dd{font-weight:500}
+
+/* ---------- contact ---------- */
+.contact-grid{display:grid;gap:20px;grid-template-columns:repeat(auto-fit,minmax(238px,1fr));margin-top:8px}
+.ct{border:1px solid var(--line);padding:28px;text-decoration:none;display:block;background:#fff;
+  transition:border-color .2s,transform .2s}
+.ct:hover{border-color:var(--rose);transform:translateY(-3px)}
+.ct .lbl{font-size:11px;letter-spacing:2.4px;text-transform:uppercase;color:var(--muted);font-weight:600}
+.ct .val{font-size:17px;font-weight:600;margin-top:8px;letter-spacing:-.2px;overflow-wrap:break-word}
+.ct .val.sm{font-size:14.5px;letter-spacing:0}
+.ct .sub{font-size:13px;color:var(--ink-soft);font-weight:300;margin-top:4px}
+
+/* ---------- footer ---------- */
+footer{background:var(--ink);color:#fff;padding:64px 0 34px;text-align:center}
+footer img{height:56px;width:auto;margin:0 auto 24px}
+footer .links{display:flex;gap:26px;justify-content:center;flex-wrap:wrap;margin-bottom:22px}
+footer .links a{text-decoration:none;font-size:12px;letter-spacing:1.6px;text-transform:uppercase;
+  color:rgba(255,255,255,.72);transition:color .18s}
+footer .links a:hover{color:var(--rose)}
+footer .fine{font-size:11.5px;color:rgba(255,255,255,.42);letter-spacing:.6px;line-height:1.9}
+
+@media (max-width:900px){
+  #gallery-grid{columns:2}
+  .about{grid-template-columns:1fr;gap:34px}
+}
+@media (max-width:720px){
+  nav ul{position:fixed;inset:76px 0 auto 0;background:#fff;flex-direction:column;gap:0;
+    padding:12px 0 22px;border-bottom:1px solid var(--line);display:none}
+  nav ul.show{display:flex}
+  nav ul li{width:100%;text-align:center}
+  nav ul li a{display:block;padding:15px 0}
+  nav .cta{margin:10px 28px 0;display:block}
+  .burger{display:block}
+  section{padding:64px 0}
+  .hero{padding:76px 0 66px}
+}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap">
+    <nav>
+      <a class="logo" href="#top" aria-label="Picture Perfect Photography"><img src="assets/logo.png" alt="Picture Perfect Photography"></a>
+      <button class="burger" aria-label="Menu" aria-expanded="false"><span></span><span></span><span></span></button>
+      <ul id="menu">
+        <li><a href="#services">Services</a></li>
+        <li><a href="#work" id="nav-work" hidden>Work</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a class="cta" href="tel:+14842466661">484 246 6661</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<a id="top"></a>
+<div class="hero">
+  <div class="wrap">
+    <img class="mark" src="assets/logo.png" alt="Picture Perfect Photography">
+    <h1>Photography that holds<br>the moment still</h1>
+    <div class="script">events &middot; portraits &middot; families</div>
+    <p class="lede">Independent photography serving Celina, Prosper, Frisco, McKinney, Denton and the wider Dallas Fort Worth metroplex. Full-frame equipment, careful editing, and images delivered ready to use.</p>
+    <div class="actions">
+      <a class="btn btn-primary" href="#contact">Enquire about a date</a>
+      <a class="btn btn-ghost" href="https://picture-perfect-photography-103773.square.site" target="_blank" rel="noopener">Book a session</a>
+    </div>
+  </div>
+</div>
+
+<section id="services">
+  <div class="wrap">
+    <div class="section-head center">
+      <div class="eyebrow">What I photograph</div>
+      <h2>Four things, done properly</h2>
+      <p>Every booking includes professional editing and a private online gallery you can download from and share.</p>
+    </div>
+    <div class="grid">
+      <div class="card">
+        <div class="num">01</div>
+        <h3>Events &amp; Celebrations</h3>
+        <p>Cultural festivals, community events, milestone celebrations and multi-day programmes. Second photographer available where coverage cannot be missed.</p>
+      </div>
+      <div class="card">
+        <div class="num">02</div>
+        <h3>Headshots &amp; Portraits</h3>
+        <p>Professional headshots for work and profiles, senior portraits, and individual sittings. Studio or on location.</p>
+      </div>
+      <div class="card">
+        <div class="num">03</div>
+        <h3>Family &amp; Milestones</h3>
+        <p>Maternity, newborn, first birthdays and cake smash sessions, and family portraits with backdrops and props provided.</p>
+      </div>
+      <div class="card">
+        <div class="num">04</div>
+        <h3>Seasonal Mini Sessions</h3>
+        <p>Short, affordable sittings around Halloween, Christmas and the holidays, run at community venues and by appointment.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Gallery renders only when images are listed in the GALLERY array below -->
+<section id="work" class="alt" hidden>
+  <div class="wrap">
+    <div class="section-head center">
+      <div class="eyebrow">Selected work</div>
+      <h2>Recent frames</h2>
+    </div>
+    <div id="gallery-grid"></div>
+  </div>
+</section>
+
+<section id="about">
+  <div class="wrap about">
+    <div class="txt">
+      <div class="eyebrow">About</div>
+      <h2>Picture Perfect Photography</h2>
+      <p>An independent photography practice based north of Dallas, working across Collin and Denton counties and the wider metroplex.</p>
+      <p>The approach is simple. Turn up prepared, understand what matters about the day before it starts, shoot it properly on professional full-frame equipment, and hand back a gallery that is edited, consistent and ready to use.</p>
+      <p>Every session and event is covered with dual card backup and redundant storage, because some moments do not come round twice.</p>
+    </div>
+    <div class="panel">
+      <dl>
+        <dt>Based</dt><dd>North Dallas, Texas</dd>
+        <dt>Covers</dt><dd>Celina, Prosper, Frisco, McKinney, Denton, Aubrey, Little Elm and the DFW metroplex</dd>
+        <dt>Equipment</dt><dd>Sony full-frame, fast professional glass, studio and location lighting</dd>
+        <dt>Delivery</dt><dd>Private online gallery, high-resolution downloads, web-sized set for social</dd>
+        <dt>Insured</dt><dd>Certificate of insurance available on request</dd>
+      </dl>
+    </div>
+  </div>
+</section>
+
+<section id="contact" class="alt">
+  <div class="wrap">
+    <div class="section-head center">
+      <div class="eyebrow">Get in touch</div>
+      <h2>Let's talk about your date</h2>
+      <p>Tell me what you are planning and roughly when. I will come back with availability and a clear quote.</p>
+    </div>
+    <div class="contact-grid">
+      <a class="ct" href="mailto:hi@pictureperfects.com">
+        <div class="lbl">Email</div>
+        <div class="val sm">hi@pictureperfects.com</div>
+        <div class="sub">Best for event enquiries</div>
+      </a>
+      <a class="ct" href="tel:+14842466661">
+        <div class="lbl">Phone</div>
+        <div class="val">484 &middot; 246 &middot; 6661</div>
+        <div class="sub">Call or text</div>
+      </a>
+      <a class="ct" href="https://picture-perfect-photography-103773.square.site" target="_blank" rel="noopener">
+        <div class="lbl">Book online</div>
+        <div class="val">Sessions &amp; minis</div>
+        <div class="sub">Check availability and book</div>
+      </a>
+      <a class="ct" href="https://www.facebook.com/pic.perf.photography" target="_blank" rel="noopener">
+        <div class="lbl">Follow</div>
+        <div class="val">Facebook</div>
+        <div class="sub">Recent work and session dates</div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <img src="assets/logo-white.png" alt="Picture Perfect Photography">
+    <div class="links">
+      <a href="#services">Services</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+      <a href="https://picture-perfect-photography-103773.square.site" target="_blank" rel="noopener">Book</a>
+    </div>
+    <div class="fine">
+      484 &middot; 246 &middot; 6661 &nbsp;&nbsp;|&nbsp;&nbsp; hi@pictureperfects.com<br>
+      &copy; <span id="yr"></span> Picture Perfect Photography. All images copyright Picture Perfect Photography.
+    </div>
+  </div>
+</footer>
+
+<div class="lb" id="lb" role="dialog" aria-modal="true" aria-label="Image viewer">
+  <button class="close" aria-label="Close">&times;</button>
+  <button class="prev" aria-label="Previous">&#8249;</button>
+  <img id="lb-img" src="" alt="">
+  <button class="next" aria-label="Next">&#8250;</button>
+  <div class="count" id="lb-count"></div>
+</div>
+
+<script>
+/* ============================================================
+   ADD YOUR PHOTOS HERE
+   1. Drop the image files into the  images/  folder
+   2. Add one line below for each, then save
+   The Work section appears automatically once this list is not empty.
+   ============================================================ */
+const GALLERY = [
+  // { src: "images/example-01.jpg", alt: "Short description of the photo" },
+  // { src: "images/example-02.jpg", alt: "Short description of the photo" },
+];
+
+(function(){
+  document.getElementById('yr').textContent = new Date().getFullYear();
+
+  // mobile menu
+  var burger=document.querySelector('.burger'), menu=document.getElementById('menu');
+  burger.addEventListener('click',function(){
+    var open=menu.classList.toggle('show');
+    burger.setAttribute('aria-expanded',open);
+  });
+  menu.addEventListener('click',function(e){ if(e.target.tagName==='A') menu.classList.remove('show'); });
+
+  // gallery
+  if(!GALLERY.length) return;
+  document.getElementById('work').hidden=false;
+  document.getElementById('nav-work').hidden=false;
+
+  var grid=document.getElementById('gallery-grid');
+  GALLERY.forEach(function(item,i){
+    var fig=document.createElement('figure');
+    var img=document.createElement('img');
+    img.src=item.src; img.alt=item.alt||''; img.loading='lazy'; img.decoding='async';
+    fig.appendChild(img);
+    fig.addEventListener('click',function(){ open(i); });
+    grid.appendChild(fig);
+  });
+
+  var lb=document.getElementById('lb'), lbImg=document.getElementById('lb-img'),
+      count=document.getElementById('lb-count'), idx=0;
+  function open(i){ idx=i; render(); lb.classList.add('open'); document.body.style.overflow='hidden'; }
+  function close(){ lb.classList.remove('open'); document.body.style.overflow=''; }
+  function render(){
+    lbImg.src=GALLERY[idx].src; lbImg.alt=GALLERY[idx].alt||'';
+    count.textContent=(idx+1)+' / '+GALLERY.length;
+  }
+  function step(d){ idx=(idx+d+GALLERY.length)%GALLERY.length; render(); }
+
+  lb.querySelector('.close').addEventListener('click',close);
+  lb.querySelector('.prev').addEventListener('click',function(e){e.stopPropagation();step(-1);});
+  lb.querySelector('.next').addEventListener('click',function(e){e.stopPropagation();step(1);});
+  lb.addEventListener('click',function(e){ if(e.target===lb) close(); });
+  document.addEventListener('keydown',function(e){
+    if(!lb.classList.contains('open')) return;
+    if(e.key==='Escape') close();
+    if(e.key==='ArrowLeft') step(-1);
+    if(e.key==='ArrowRight') step(1);
+  });
+})();
+</script>
+</body>
+</html>
